@@ -1,0 +1,20 @@
+{
+  "name": "promptadvisers-lockpick",
+  "interface": {
+    "displayName": "Lockpick by Prompt Advisers"
+  },
+  "plugins": [
+    {
+      "name": "lockpick",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lockpick"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
