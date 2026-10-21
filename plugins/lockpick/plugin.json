@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lockpick",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Scan your app, site, or AI skill before you ship.",
   "author": {
     "name": "Prompt Advisers",
