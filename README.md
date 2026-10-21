@@ -1,16 +1,7 @@
 # Lockpick for Codex
 
-Scan your app, site, or AI skill before you ship.
+Install the plugin, connect your Lockpick account in the plugin settings, and choose the intended workspace. Ask to show your sites and allowance before starting a check.
 
-This repository distributes the thin Lockpick plugin for Codex. Assessments run on Lockpick infrastructure; proprietary scanners are not included.
+The plugin uses the hosted Lockpick MCP service. It returns findings, redacted proof, coverage and repair guidance. Proprietary assessment engines and internal traces are never distributed. Scan charges and permissions come from your account; Deep scans require ownership proof and explicit approval.
 
-## Install from this repository
-
-```sh
-codex plugin marketplace add promptadvisers/lockpick-codex-plugin
-codex plugin add lockpick@promptadvisers-lockpick
-```
-
-Connect your Lockpick account and choose the intended workspace. Read-only access is the starting point; scans require their appropriate permissions. See [the plugin README](plugins/lockpick/README.md), [privacy](https://www.lockpick.app/en/privacy), and [terms](https://www.lockpick.app/en/terms).
-
-This direct Git installation is separate from an approved public directory listing.
+Disconnect in the client settings and revoke the connection in Lockpick Workspace settings. The thin plugin is MIT licensed; the hosted service has its own terms.
